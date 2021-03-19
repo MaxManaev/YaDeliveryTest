@@ -26,7 +26,7 @@ class DeliveryTest {
                 Arguments.of(9, Dimensions.Large, Workload.VeryHigh, true, 960, "Cost must be 960"),
                 Arguments.of(10, Dimensions.Large, Workload.VeryHigh, true, 1120, "Cost must be 1120"),
                 Arguments.of(29, Dimensions.Large, Workload.VeryHigh, true, 1120, "Cost must be 1120"),
-                Arguments.of(30, Dimensions.Large, Workload.VeryHigh, false, 800, "Cost must be 800"),
+                Arguments.of(30, Dimensions.Large, Workload.VeryHigh, true, 1280, "Cost must be 1280"),
 
                 /* Pair wise for common parameters */
                 Arguments.of(1, Dimensions.Small, Workload.VeryHigh, false, 400, "Cost must be 400"),
